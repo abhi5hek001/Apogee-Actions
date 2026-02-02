@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Action Items</string>
+    <string name="title_activity_main">Action Items</string>
+    <string name="package_name">com.apogee.actionitems</string>
+    <string name="custom_url_scheme">com.apogee.actionitems</string>
+</resources>
