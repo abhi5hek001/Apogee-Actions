@@ -43,3 +43,4 @@ actions-runner/
 *.aab
 android/app/build/
 node_modules/
+android-sdk/
