@@ -26,3 +26,20 @@ yarn-error.log*
 # Capacitor
 /client/android/app/build/
 /client/android/.gradle/
+
+# GitHub Actions Runner files
+_work/
+externals/
+bin/
+actions-runner/
+*.zip
+*.tar.gz
+.runner
+.credentials
+.credentials_rsaparams
+
+# Android Build Artifacts
+*.apk
+*.aab
+android/app/build/
+node_modules/
