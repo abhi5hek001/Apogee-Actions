@@ -30,7 +30,6 @@ jobs:
           java-version: '17'
           cache: 'gradle'
 
-
       - name: Install Dependencies
         working-directory: ./client
         run: npm install
@@ -42,13 +41,6 @@ jobs:
       - name: Sync Capacitor
         working-directory: ./client
         run: npx cap sync android
-
-      - name: Debug Environment
-        run: |
-          echo "Checking Android SDK..."
-          dir "e:\College\Placement\Projects\Apogee-Assignment\android-sdk"
-          echo "Creating local.properties..."
-          echo sdk.dir=e:\\College\\Placement\\Projects\\Apogee-Assignment\\android-sdk > client/android/local.properties
 
       - name: Build Android APK
         working-directory: ./client/android

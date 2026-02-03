@@ -6,9 +6,15 @@ node_modules/
 # Testing
 coverage/
 
+# Local Deployment & Runner
+actions-runner/
+android-sdk/
+commandlinetools.zip
+.vscode/
 # Production
 dist/
 build/
+dist/
 
 # Misc
 .DS_Store
@@ -23,24 +29,4 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Capacitor
-/client/android/app/build/
-/client/android/.gradle/
-
-# GitHub Actions Runner files
-_work/
-externals/
-bin/
-actions-runner/
-*.zip
-*.tar.gz
-.runner
-.credentials
-.credentials_rsaparams
-
-# Android Build Artifacts
-*.apk
-*.aab
-android/app/build/
-node_modules/
-android-sdk/
+Apogee Assignment.pdf
