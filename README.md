@@ -9,7 +9,6 @@ The application is built using a modern full-stack architecture, optimized for s
 * **Mobile Bridge:** **Capacitor** to wrap the web application into a native Android container.
 * **Backend:** Node.js with Express providing a RESTful API.
 * **Database:** MongoDB Atlas for cloud data persistence.
-* **Automation:** GitHub Actions (`android-build.yml`) for CI/CD pipeline automation.
 
 ## 🚀 Key Technical Features
 * **Smart Categorization:** Task types (Remind, Email, Invite) are visually distinguished to reduce cognitive load.
@@ -28,6 +27,20 @@ The app follows a robust state management pattern:
 1.  **State Synchronization:** React state handles real-time UI updates.
 2.  **Persistent Storage:** Every change is mirrored to `localStorage` for instant session recovery.
 3.  **Cloud Backup:** The backend ensures that data is stored securely in MongoDB for cross-device access.
+
+## 📸 Screenshots
+
+| <img src="screenshots/action items.jpeg" width="300" /> | <img src="screenshots/open action.jpeg" width="300" /> |
+| :---: | :---: |
+| **All Action Items** | **Action Details** |
+
+| <img src="screenshots/mark as complete.jpeg" width="300" /> | <img src="screenshots/completed actions.jpeg" width="300" /> |
+| :---: | :---: |
+| **Marking Complete** | **Completed List** |
+
+| <img src="screenshots/delete action.jpeg" width="300" /> |
+| :---: |
+| **Delete Action** |
 
 ## ⚙️ Setup & Execution
 
